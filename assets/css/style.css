@@ -224,6 +224,10 @@ article h4 {
   padding: 1.5rem 1rem;
 }
 
+.trainer-card h4 {
+  justify-content: center;
+}
+
 .trainer-photo {
   width: 100px;
   height: 100px;
@@ -289,7 +293,7 @@ article h4 {
 /* --- Hero --- */
 .hero {
   position: relative;
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   background: url('../images/hero-bg.jpg') center center / cover no-repeat;
@@ -309,7 +313,7 @@ article h4 {
 }
 
 .hero-logo {
-  max-width: 180px;
+  max-width: 260px;
   width: 50%;
   height: auto;
   margin-bottom: 1.25rem;
@@ -361,7 +365,7 @@ article h4 {
 
 /* --- Sections --- */
 .section {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 .section + .section {
